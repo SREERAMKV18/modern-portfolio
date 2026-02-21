@@ -20,22 +20,22 @@ const Layout = ({ children }) => {
       {/* metadata */}
       <Head>
         {/* 1. THE BROWSER TAB TITLE */}
-        <title>Sreedarsh T M | RS and GIS Researcher</title>
+        <title>Sreeram K V | Environmental & Remote Sensing Researcher</title>
         
         {/* 2. GOOGLE SEARCH DESCRIPTION */}
         <meta
           name="description"
-          content="Sreedarsh T M is a Geoinformatics Researcher and M.Tech graduate specializing in Remote Sensing, Deep Learning, and Google Earth Engine."
+          content="Sreeram K V is an Environmental Researcher specializing in Forest and Agro-ecosystem Responses to Climate Variability, Remote Sensing, and Fluvial Geomorphology."
         />
         
         {/* 3. KEYWORDS FOR SEO */}
         <meta
           name="keywords"
-          content="geoinformatics, remote sensing, gis, google earth engine, python, deep learning, research, portfolio, spatial analysis, arcgis, qgis, isro"
+          content="remote sensing, gis, geoinformatics, forest ecosystems, climate change, hydrology, geomorphology, python, r, arcgis, qgis, earth engine"
         />
         
         {/* 4. AUTHOR */}
-        <meta name="author" content="Sreedarsh T M" />
+        <meta name="author" content="Sreeram K V" />
         <meta name="theme-color" content="#f13024" />
       </Head>
 

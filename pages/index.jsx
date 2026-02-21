@@ -26,13 +26,11 @@ const Home = () => {
             {/* LINE 1: whitespace-nowrap forces it to NEVER break line */}
             {/* We use text-[15px] on mobile so it fits the screen width */}
             <span className="block whitespace-nowrap text-[14px] sm:text-lg md:text-xl lg:text-3xl">
-              Geospatial Intelligence{" "}
-              <span className="text-accent">& Earth Observation</span>
+              Forest & Agro-ecosystems Research
             </span>
-
             {/* LINE 2: whitespace-nowrap forces it to NEVER break line */}
             <span className="block whitespace-nowrap text-[14px] sm:text-lg md:text-xl lg:text-3xl mt-1 md:mt-2">
-              Geoinformatics & Remote Sensing Researcher
+              Remote Sensing | Hydrology | Ecosystems Researcher
             </span>
           </motion.h1>
 
@@ -44,9 +42,9 @@ const Home = () => {
             exit="hidden"
             className="max-w-xs md:max-w-sm lg:max-w-xl mx-auto lg:mx-0 mb-8 md:mb-10 lg:mb-16 text-sm md:text-base opacity-80"
           >
-            Geomatics Engineer with specialized expertise in Remote Sensing and Digital Image Processing.
-            I completed a 6-month internship at NRSC ISRO. Research enthusiast focused on geospatial applications,
-            spatial analysis, and hazard modeling.
+            Researcher working on forest and agro-ecosystem responses to climate variability, hydrological and
+            fluvial geomorphological processes, and vegetation–water interactions. Skilled in R and Python,
+            with experience in remote sensing–based ecosystem monitoring and field investigations.
           </motion.p>
 
           {/* btn */}

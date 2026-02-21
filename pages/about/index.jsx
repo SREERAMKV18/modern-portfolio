@@ -30,16 +30,19 @@ export const aboutData = [
     title: "Skills",
     info: [
       {
+        title: "Programming & Tools",
+        icons: [FaPython, SiVisualstudiocode, FaGitAlt],
+        description: ["R, Python", "Microsoft Office, LaTeX"]
+      },
+      {
         title: "GIS & Remote Sensing",
-        icons: [SiArcgis, SiQgis, SiGoogleearth, FaGlobeAmericas],
+        icons: [SiArcgis, SiQgis, SiGoogleearth],
+        description: ["ArcGIS, QGIS, ErDAS Imagine, ENVI, SNAP, GEE, SDAT, AVHYAS"]
       },
       {
-        title: "Coding & Dev Tools",
-        icons: [FaPython, SiVisualstudiocode, SiGooglecolab, FaGitAlt, SiGithub],
-      },
-      {
-        title: "GenAI & Office",
-        icons: [SiOpenai, SiGoogle, SiMicrosoft],
+        title: "Languages",
+        icons: [SiGoogle],
+        description: ["English, Hindi, Malayalam"]
       },
     ],
   },
@@ -47,21 +50,27 @@ export const aboutData = [
     title: "Experience",
     info: [
       {
-        title: "Independent Researcher",
-        stage: "June 2025 - Present",
+        title: "Project Junior Research Fellow (JRF)",
+        stage: "Oct 2025 - Present",
         description: [
-            "Preparing for UGC NET & exploring AI integration in GIS.",
-            "Working on a research paper regarding Coastal Vulnerability.",
-            "Enhancing technical proficiency in Python & Deep Learning."
+          "Fluvial Geomorphology and Remote Sensing Laboratory (FGRS Lab), IISER Bhopal.",
+          "Remote sensing and GIS analysis for hydrological and geomorphological applications.",
+          "Satellite image classification, object-based image analysis, and flood mapping."
         ]
       },
       {
-        title: "Project Intern - NRSC, ISRO",
-        stage: "Jan 2025 - June 2025",
+        title: "Marketing Manager, Amtech Enterprises",
+        stage: "Sep 2024 - Sep 2025",
         description: [
-            "Project: 'Burned Area Extraction using AI & ML (Deep Learning)'.",
-            "Created a labeled training dataset for identifying burned areas.",
-            "Processed satellite imagery using Google Colab and Earth Engine API."
+          "Developed and implemented marketing strategies, conducted market research, and coordinated campaigns."
+        ]
+      },
+      {
+        title: "Field Investigations & Collaborations",
+        stage: "Dec 2025 - Jan 2026",
+        description: [
+          "Riverine surveys for Narmada Basin (NVDA) and ISRO–NMCG projects on Ganga and Gandak.",
+          "ADCP discharge measurements, DGPS surveys, sediment sampling, and topographic cross-sections."
         ]
       },
     ],
@@ -69,140 +78,103 @@ export const aboutData = [
   {
     title: "Education",
     info: [
-      { 
-        degree: "M. Tech", 
-        university: "Bharathidasan University", 
-        specialization: "Geoinformatics", 
-        year: "2025" 
+      {
+        degree: "M.Sc.",
+        university: "Central University of Jharkhand",
+        specialization: "Geoinformatics",
+        year: "2024",
+        reg: "22260402019",
       },
-      { 
-        degree: "M. Sc", 
-        university: "Mangalore University", 
-        specialization: "Geography", 
-        year: "2023" 
+      {
+        degree: "B.Sc.",
+        university: "Kannur University",
+        specialization: "Botany",
+        year: "2022",
+        reg: "SN19CBOR34",
       },
-      { 
-        degree: "B. Sc", 
-        university: "Kannur University", 
-        specialization: "Geography\nSub: Geology, Statistics", 
-        year: "2021" 
+      {
+        degree: "Higher Secondary",
+        university: "Kerala Board of Higher Secondary Education",
+        year: "2019",
+        reg: "6394674",
       },
-      { 
-        degree: "VHSE", 
-        university: "Kerala Board of VHSE", 
-        specialization: "ABFS (Science)\nAgri, Bio, Chem, Physics", 
-        year: "2018" 
+      {
+        degree: "Secondary Education",
+        university: "Kerala Board of Public Examinations",
+        year: "2017",
+        reg: "503777",
       },
     ],
   },
   {
     title: "Research Focus",
     info: [
-      { title: "My Vision", stage: "Aspiring to be a Versatile Researcher", logo: FaBullseye },
-      { title: "Key Interests", stage: "Disaster Management, Spatial Analysis & Geo-AI" },
-    ],
-  },
-  {
-    title: "Projects",
-    info: [
       {
-        title: "Burned Area Extraction (Major Project)",
-        stage: "AI & Deep Learning",
-        description: ["Applied DL algorithms to automate detection from satellite imagery."]
-      },
-      {
-        title: "Landslide Susceptibility (Mini Project)",
-        stage: "Machine Learning",
-        description: ["Bivariate analysis & ML mapping in Kodaikanal region."]
-      },
-      {
-        title: "Coastal Vulnerability (M.Sc Project)",
-        stage: "Geospatial Analysis",
-        description: ["Analyzed coastal changes for Kasaragod and Kannur regions."]
+        title: "Interests",
+        stage: "Forest & agro-ecosystem responses to climate variability; hydrological & fluvial geomorphology; vegetation–water interactions; remote sensing–based ecosystem monitoring; drought and flood dynamics",
       },
     ],
   },
   {
-    title: "Publications",
+    title: "Dissertations & Projects",
     info: [
       {
-        title: "Prioritization of Flood Susceptibility Zones",
-        stage: "Book Chapter (2025)",
-        description: ["Publisher: Taylor & Francis (CRC Press).", "Method: MCDM, TOPSIS, and CF Model."]
+        title: "Postgraduate Dissertation",
+        stage: "Feb 2024 - May 2024",
+        description: [
+          "Spatio-temporal Changes of Primary Productions of Forest and its linkage with Climate and Tree-Ring isotopic Records over Himalayas.",
+          "Supervised by Dr. Bikash Ranjan Parida."
+        ]
       },
       {
-        title: "Coastal Vulnerability Assessment",
-        stage: "Manuscript in Prep",
-        description: ["Authors: T.M. Sreedarsh & Poojith Kumar D P.", "Target: Book Chapter."]
+        title: "Undergraduate Dissertation",
+        stage: "Jan 2022 - May 2022",
+        description: [
+          "Study of floristic diversity of the sacred grove, Thadathil Sree Kurumba Kavu, Kannur District, Kerala.",
+          "Supervised by Dr. Jeeshna M V."
+        ]
+      }
+    ],
+  },
+  {
+    title: "Certifications & Workshops",
+    info: [
+      {
+        title: "TOEFL iBT",
+        stage: "Overall Score 100/120 (CEFR: C1)",
+      },
+      {
+        title: "SAR & Geoinformatics Trainings",
+        stage: "Various",
+        description: [
+          "Introduction to SAR Data Processing (Central University of Jharkhand).",
+          "Application of Geoinformatics and Electrical Resistivity Techniques in Ground Water Investigation."
+        ]
+      },
+      {
+        title: "Workshops",
+        stage: "DST / SERB / CWRDM / MANAGE",
+        description: [
+          "Hyperspectral imaging fundamentals and remote sensing applications in agriculture and water resources.",
+          "Collaborative training on Agricultural Water Management under changing climate scenarios."
+        ]
       },
     ],
   },
   {
-    title: "Conferences",
+    title: "Other",
     info: [
       {
-        title: "Site Suitability for Solid Waste Disposal",
-        stage: "Dec 2024",
-        description: ["13th Intl Conference (UGIT), Bangalore University."]
-      },
-      {
-        title: "Coastal Vulnerability Assessment",
-        stage: "Oct 2023",
-        description: ["Intl Conference (CWGHSCC), Lovely Professional Univ."]
-      },
-    ],
-  },
-  {
-    title: "Certifications",
-    info: [
-      {
-        title: "IIRS - ISRO Outreach",
-        stage: "2023 - 2024",
+        title: "Achievements & Scholarships",
         description: [
-          "LIDAR Data Processing & Applications (Grade: A+) | Aug 2024",
-          "Geo-data Sharing & Cyber Security (Grade: A+) | Dec 2023",
-          "AI/ML for Geodata Analysis | Aug 2024",
-          "Geodata Processing using Python | Jan 2024",
-          "Geospatial Analysis using Google Earth Engine | Feb 2024",
-          "Potential of NISAR for Disaster Mitigation | July 2024",
-          "Exploring Earth's Moon through Chandrayaan | Feb 2024"
+          "Qualified CUET 2022.",
+          "Received Central Sector Scheme of Scholarship for College and University Students (Masters & Bachelors)."
         ]
       },
       {
-        title: "NASA ARSET",
-        stage: "International",
-        description: [
-          "SeaDAS 8.4.1 for Water Quality Monitoring | Feb 2024",
-          "Spectral Indices for Land & Aquatic using QGIS | Feb 2025"
-        ]
-      },
-      {
-        title: "NRSC - ISRO (Bhuvan)",
-        stage: "Workshops",
-        description: [
-          "Online Workshop on Bhoonidhi | Oct 2024",
-          "Bhuvan Overview (Advanced) | Sept 2023",
-          "Bhuvan Overview (Introductory) | May 2023"
-        ]
-      },
-      {
-        title: "Esri MOOC",
-        stage: "ArcGIS Ecosystem",
-        description: [
-          "Going Places with Spatial Analysis (6 Weeks) | March 2024",
-          "GIS for Climate Action (6 Weeks) | Nov 2023"
-        ]
-      },
-      {
-        title: "Professional Development",
-        stage: "Other",
-        description: [
-          "AI for Space Application (Hex-Star Universe) | Feb 2025",
-          "Managing Bathymetric Data in ArcGIS Pro | Dec 2023",
-          "Teaching Web-Based Modern GIS | Sept 2023",
-          "Research Article Screening Process (IARA) | Aug 2023"
-        ]
-      },
+        title: "Volunteering",
+        description: ["NSS Volunteer (2017-2021)"]
+      }
     ],
   },
 ];

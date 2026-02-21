@@ -3,6 +3,7 @@ import Link from "next/link";
 import Socials from "../components/Socials";
 import { FaSatellite } from "react-icons/fa";
 import { GiEarthAmerica } from "react-icons/gi";
+import { RiPhoneLine } from "react-icons/ri";
 
 const Header = () => {
   return (
@@ -13,25 +14,12 @@ const Header = () => {
           {/* LOGO SECTION */}
           <Link href="/" className="group flex flex-col items-center lg:items-start">
             <h1 className="text-2xl md:text-3xl font-bold leading-tight text-center lg:text-left">
-              Sreedarsh T M <span className="text-accent">.</span>
+              Sreeram K V
             </h1>
             
             <div className="flex items-center justify-center lg:justify-start gap-x-2 mt-1">
-              <div className="relative w-5 h-5 flex items-center justify-center pointer-events-none">
-                 <style jsx>{`
-                   @keyframes orbit-spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
-                   .orbit-container { animation: orbit-spin 8s linear infinite; }
-                   .satellite-counter-spin { animation: orbit-spin 8s linear reverse infinite; }
-                 `}</style>
-                 <span className="absolute z-10 text-white text-xs"><GiEarthAmerica /></span>
-                 <div className="absolute w-full h-full orbit-container">
-                    <div className="absolute -top-[1px] left-1/2 -translate-x-1/2 text-accent text-[7px] satellite-counter-spin">
-                      <FaSatellite />
-                    </div>
-                 </div>
-              </div>
               <p className="text-[10px] md:text-[11px] font-bold tracking-[0.2em] uppercase text-white/90 group-hover:text-accent transition-colors">
-                M.Sc. <span className="text-accent mx-1">|</span> M.Tech.
+                Remote Sensing And GIS
               </p>
             </div>
           </Link>
@@ -40,6 +28,12 @@ const Header = () => {
           <div className="flex flex-row items-center gap-x-4 mt-2 lg:mt-0">
             {/* Social Icons */}
             <Socials />
+            
+            {/* Phone with icon */}
+            <a href="tel:+918281669236" className="hidden sm:flex items-center gap-x-1 text-sm font-medium text-white/90 hover:text-accent transition-colors">
+              <RiPhoneLine className="text-lg" />
+              <span>+91-8281669236</span>
+            </a>
             
             {/* Download CV Button (Made Smaller/Compact for Mobile) */}
             <Link 
